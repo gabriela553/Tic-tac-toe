@@ -1,9 +1,11 @@
 body {
-  background-color: rgb(190, 101, 165);
+  margin-left: 450px;
+  background-color: rgb(212, 183, 204);
 }
 .title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  margin-bottom: 30px;
   margin-left: 100px;
 }
 .gameboard {
@@ -17,7 +19,7 @@ body {
   height: 100px;
   width: 100px;
   border: 1px solid black;
-  background-color: rgb(82, 152, 156);
+  background-color: rgb(175, 232, 235);
 }
 
 .imageX, .imageO {
@@ -30,3 +32,8 @@ body {
   margin-left: 110px;
 }
 
+.result {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: 100px;
+}
